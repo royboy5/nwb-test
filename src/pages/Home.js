@@ -1,4 +1,4 @@
-import "./styles/base.styl"
+import "../styles/base.styl"
 
 import React, { Component } from "react"
 
@@ -12,7 +12,7 @@ class App extends Component {
           </h2>
         </div>
         <div className="App-instructions App-flex">
-          <img className="App-logo" src={require("../public/images/react.svg")} />
+          <img className="App-logo" src={require("../../public/images/react.svg")} />
           <p>
             Edit <code>src/App.js</code> and save to hot reload your changes.
           </p>
